@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Number of dock slots and grid columns: 4, 5, 6 or 7. -->
+    <integer name="columns">4</integer>
+
+    <!-- Dock apps, left to right (package names). Change this list to change the dock.
+         If a package is not installed it is skipped and the slot is filled automatically. -->
+    <string-array name="dock_apps">
+        <item>com.google.android.youtube.tv</item>
+        <item>in.startv.hotstar</item>
+        <item>app.netmirror.netmirrornew</item>
+        <item>com.yablio.sendfilestotv</item>
+    </string-array>
+</resources>
